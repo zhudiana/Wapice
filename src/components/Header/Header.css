@@ -1,0 +1,75 @@
+.header-container {
+  background-color: #002235;
+  margin: -16px -8px 0 -8px;
+  z-index: 101;
+  min-height: 47.5px;
+}
+.header-text {
+  color: #fff;
+  font-weight: 500 !important;
+  font-style: inherit;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: public_sans, -apple-system, BlinkMacSystemFont, Trebuchet MS,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding-top: 10px;
+}
+.subscribe-button {
+  color: #fff;
+  background-color: #094466;
+  margin-left: 15px;
+  text-decoration: none;
+  border-radius: 65px;
+  font-size: 14px;
+  position: relative;
+  font-family: public_sans, Roboto, Droid Sans, Helvetica Neue, Helvetica,
+    Trebuchet MS, Arial;
+  padding: 0.5em 1.25em;
+  font-weight: 700 !important;
+  margin-left: 0.75rem !important;
+}
+.subscribe-button:hover {
+  box-shadow: 0 0 0 2px #e1930a;
+  transition: all 0.1s ease;
+  background-color: #2f2f2f;
+  border-color: transparent;
+}
+
+/* Header2 */
+.navbar {
+  margin-left: -8px;
+  margin-right: -8px;
+  height: 70px;
+  align-items: center;
+  display: flex;
+}
+.logo-container {
+  margin-left: 40px;
+}
+.logo-img {
+  height: 60px;
+  padding-right: 0;
+  margin-left: -11px;
+  margin-right: 1rem;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+.menu-icon {
+  margin-left: 70%;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  background-color: #fff;
+}
+.icons {
+  color: #07599c;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-top: 5px;
+  margin-left: 5px;
+}

@@ -1,0 +1,56 @@
+.body1-container {
+  background-image: url("https://www.wapice.com/images/9/9/3/2/1/9932141f1834f22792a12affc41b784ed6c7b216-iot-2-background-desktop.jpg?g-18ac159b");
+  position: absolute;
+  /* height: 70vh; */
+  width: 100%;
+  margin-left: -78px;
+  background-size: cover;
+  color: #fff;
+  padding-left: 70px;
+  padding-top: calc(3.25rem + 1vw);
+  padding-bottom: calc(5.25rem + 2vw);
+}
+.on-text {
+  font-size: calc(2.5rem + 0.4vw);
+  margin-bottom: 1.25rem;
+  line-height: 1;
+  text-shadow: 0 0 6px #0c3d7f, 0 0 20px #0c3d7f;
+  font-weight: 700 !important;
+  font-family: public_sans, Roboto, Droid Sans, Helvetica Neue, Helvetica,
+    Trebuchet MS, Arial;
+  color: #fff;
+}
+.yellow-lightest {
+  color: #ffd080 !important;
+}
+.body1-text {
+  padding-left: 70px;
+  font-family: public_sans, Roboto, Droid Sans, Helvetica Neue, Helvetica,
+    Trebuchet MS, Arial;
+}
+.under-text {
+  font-size: 1.5rem;
+}
+.read_more-container {
+  background-color: #fff;
+  border-color: transparent;
+  color: #032559;
+  font-size: 1.25rem;
+  width: 100px;
+  position: relative;
+  font-family: public_sans, Roboto, Droid Sans, Helvetica Neue, Helvetica,
+    Trebuchet MS, Arial;
+  box-shadow: 0 0 0 transparent;
+  transition: all 0.1s ease;
+  padding: 0.5em 1.25em;
+  border-radius: 65px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.read_more-container:hover {
+  box-shadow: 0 0 0 2px #e1930a;
+  transition: all 0.1s ease;
+}
+.text-link {
+  text-decoration: none;
+}
