@@ -35,6 +35,7 @@ const Header2 = () => {
         <div className="menu-icon" onClick={handleClick}>
           {click ? <FiX className="icons" /> : <BiMenu className="icons" />}
         </div>
+
         {/* <ul>
           <li>
             <Link to="/" onClick={closeMobileMenu}>
