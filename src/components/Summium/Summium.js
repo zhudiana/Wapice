@@ -14,15 +14,18 @@ const Summium = () => {
       </div>
       <div className="summium-description">
         <h2 className="summium-title">Digitalize your Sales Process</h2>
-        <p>
+        <p className="summium-lower-title">
           With Wapice's <b>Summium®</b> product family{" "}
         </p>
-        <p>
+        <p className="summium-article">
           Summium Sales digitalization platform links customer and salesman in
           one sales process in a completely new way. Create quotes based on
           requests for quote received from customer – all in one platform.
         </p>
-        <p>Read more</p>
+        <p className="summium-button">Read more</p>
+      </div>
+      <div className="join-team-article-container">
+        <img src="https://www.wapice.com/user/pages/01.home/_latest-openings/woman-interviewer-mod.svg?g-18ac159b" />
       </div>
     </div>
   );

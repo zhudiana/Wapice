@@ -50,3 +50,45 @@
     Trebuchet MS, Arial;
   line-height: 1.125;
 }
+.summium-description {
+  padding-top: 120px;
+  width: 600px;
+}
+.summium-lower-title {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: public_sans, Roboto, Droid Sans, Helvetica Neue, Helvetica,
+    Trebuchet MS, Arial;
+  font-weight: 500;
+}
+.summium-article {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: public_sans, -apple-system, BlinkMacSystemFont, Trebuchet MS,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+  line-height: 30px;
+}
+.summium-button {
+  color: #d13d00;
+  box-shadow: 0 4px 31px rgba(209, 61, 0, 0.42),
+    0 0.50086px 3.88168px rgba(209, 61, 0, 0.21);
+  font-size: 1.25rem;
+  background-color: #fff;
+  border-color: transparent;
+  position: relative;
+  font-family: public_sans, Roboto, Droid Sans, Helvetica Neue, Helvetica,
+    Trebuchet MS, Arial;
+  transition: all 0.1s ease;
+  padding: 0.5em 1.25em;
+  border-radius: 65px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 120px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.summium-button:hover {
+  color: #000;
+}
