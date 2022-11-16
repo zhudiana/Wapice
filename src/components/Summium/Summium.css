@@ -1,0 +1,52 @@
+.summium-container {
+  background-color: rgba(255, 170, 23, 0.67);
+  height: 100vh;
+  display: flex;
+  margin-top: -80px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-image: radial-gradient(
+      farthest-corner at center 0,
+      rgba(255, 170, 23, 0.67),
+      rgba(255, 192, 41, 0) 80%
+    ),
+    radial-gradient(
+      circle at 30% 97%,
+      rgba(4, 4, 4, 0.06) 0,
+      rgba(4, 4, 4, 0.06) 33.333%,
+      rgba(4, 4, 4, 0.06) 0,
+      rgba(4, 4, 4, 0.06) 66.666%,
+      rgba(3, 3, 3, 0.06) 0,
+      rgba(3, 3, 3, 0.06) 99.999%
+    ),
+    radial-gradient(
+      circle at 22% 20%,
+      hsla(0, 0%, 60%, 0.06) 0,
+      hsla(0, 0%, 60%, 0.06) 33.333%,
+      rgba(78, 78, 78, 0.06) 0,
+      rgba(78, 78, 78, 0.06) 66.666%,
+      rgba(1, 1, 1, 0.06) 0,
+      rgba(1, 1, 1, 0.06) 99.999%
+    ),
+    radial-gradient(
+      circle at 67% 32%,
+      hsla(0, 0%, 51%, 0.06) 0,
+      hsla(0, 0%, 51%, 0.06) 33.333%,
+      hsla(0, 0%, 65%, 0.06) 0,
+      hsla(0, 0%, 65%, 0.06) 66.666%,
+      hsla(0, 0%, 79%, 0.06) 0,
+      hsla(0, 0%, 79%, 0.06) 99.999%
+    ),
+    linear-gradient(45deg, #ec3417, #fba728);
+}
+.summium-image {
+  width: 560px;
+  height: 530px;
+}
+.summium-title {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: public_sans, Roboto, Droid Sans, Helvetica Neue, Helvetica,
+    Trebuchet MS, Arial;
+  line-height: 1.125;
+}

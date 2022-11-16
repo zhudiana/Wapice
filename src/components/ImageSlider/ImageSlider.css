@@ -1,0 +1,90 @@
+.body {
+  background-image: url("https://www.wapice.com/images/2/b/0/f/7/2b0f71eeae7b2ac174a4a51ce476f49b8335f896-home-customer-cases-bg.jpg?g-18ac159b");
+  background-position: absolute;
+  margin-left: -10px;
+  margin-right: 20px;
+  height: 120vh;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+  margin-top: 80px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.card {
+  border: 1px solid #fff;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 360px;
+  color: #000;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 0 10px 0 0 #e1930a;
+  transition: all 0.1s ease;
+  border-radius: 3px;
+}
+
+.card-top h1 {
+  font-size: 0.9rem;
+  margin: 20px;
+  margin-top: -20px;
+  color: #4a4a4a;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: public_sans, -apple-system, BlinkMacSystemFont, Trebuchet MS,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+}
+.long-text {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.card-top p {
+  font-size: 1.25rem;
+  font-family: public_sans, Roboto, Droid Sans, Helvetica Neue, Helvetica,
+    Trebuchet MS, Arial;
+  font-weight: 500;
+  /* width: 290px; */
+  margin-top: 10px;
+}
+.card-top:hover {
+  background-color: rgba(225, 147, 10, 0.1);
+}
+.card-top p:hover {
+  background-color: rgba(225, 147, 10, 0.1);
+}
+.footer-name {
+  background-color: #f5f5f5;
+  margin-top: 70px;
+  height: 36px;
+}
+
+.card-top > img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background: black;
+}
+
+.card-bottom {
+  margin: 10px 20px;
+}
+
+.category {
+  position: relative;
+}
+.category::before {
+  content: "";
+  background: rgb(255, 61, 61);
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  right: 0;
+  height: 2px;
+}

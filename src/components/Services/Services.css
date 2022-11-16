@@ -1,0 +1,28 @@
+.services-container {
+  background-color: #020824;
+  margin-left: -1.25rem;
+  margin-right: 1.25rem;
+  margin-bottom: calc(3.25rem + 2vw);
+  margin-top: -25px;
+}
+.services-title {
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: public_sans, Roboto, Droid Sans, Helvetica Neue, Helvetica,
+    Trebuchet MS, Arial;
+  cursor: pointer;
+}
+.services-title:hover {
+  background-color: rgba(225, 147, 10, 0.1);
+  box-shadow: 0 2px 0 #e1930a;
+  text-decoration-skip-ink: auto;
+}
+.list-contianer {
+  width: 100%;
+  color: #fff;
+  list-style: none;
+  display: flex;
+}
+.list-image {
+  width: 100px;
+}
