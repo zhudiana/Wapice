@@ -6,6 +6,10 @@ import ImageSlider from "./components/ImageSlider/ImageSlider";
 import { SliderData } from "./components/ImageSlider/SliderData";
 import Services from "./components/Services/Services";
 import Summium from "./components/Summium/Summium";
+import JoinTeam from "./components/JoinTeam/JoinTeam";
+import Happening from "./components/Happening/Happening";
+import Partners from "./components/Partners/Partners";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -21,6 +25,10 @@ function App() {
       <ImageSlider slides={SliderData} />
       <Services />
       <Summium />
+      <JoinTeam />
+      <Happening />
+      <Partners />
+      <Contact />
     </div>
   );
 }

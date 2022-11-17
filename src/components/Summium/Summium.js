@@ -24,9 +24,6 @@ const Summium = () => {
         </p>
         <p className="summium-button">Read more</p>
       </div>
-      <div className="join-team-article-container">
-        <img src="https://www.wapice.com/user/pages/01.home/_latest-openings/woman-interviewer-mod.svg?g-18ac159b" />
-      </div>
     </div>
   );
 };
