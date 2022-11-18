@@ -2,7 +2,6 @@
 
 # Mohanur Technologies co.
 
----
 
 # Static Website
 
