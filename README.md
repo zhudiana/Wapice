@@ -3,7 +3,7 @@
 # Mohanur Technologies co.
 
 
-# Static Website
+## Static Website
 
 > Static Website built with React.
 
