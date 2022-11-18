@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Body.css";
+import { FaEnvelope } from "react-icons/fa";
 
 const Body1 = () => {
   return (
@@ -21,6 +22,11 @@ const Body1 = () => {
               Read more
             </Link>
           </div>
+        </div>
+        <div>
+          <button className="envelope-button">
+            <FaEnvelope className="envelope" />
+          </button>
         </div>
       </div>
     </>

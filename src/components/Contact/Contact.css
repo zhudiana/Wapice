@@ -1,0 +1,94 @@
+.form-container {
+  margin: 100px 0 0 0;
+  width: 955px;
+  height: 375px;
+  margin-left: 9%;
+  padding: 2.5rem;
+  box-shadow: 0 1px 2px rgba(0, 34, 53, 0.05), 0 2px 4px rgba(0, 34, 53, 0.05),
+    0 4px 8px rgba(0, 34, 53, 0.05), 0 8px 16px rgba(0, 34, 53, 0.05),
+    0 16px 32px rgba(0, 34, 53, 0.05), 0 32px 64px rgba(0, 34, 53, 0.05);
+}
+form h2 {
+  color: #e1930a;
+  font-family: public_sans, Roboto, Droid Sans, Helvetica Neue, Helvetica,
+    Trebuchet MS, Arial;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.125;
+}
+.first-row-form-container {
+  display: flex;
+}
+label {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #7a7a7a;
+  font-weight: 700;
+  font-family: public_sans, -apple-system, BlinkMacSystemFont, Trebuchet MS,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+}
+.form-inputt {
+  margin-top: 10px;
+  color: #363636;
+  font-family: public_sans, -apple-system, BlinkMacSystemFont, Trebuchet MS,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  width: 257px;
+  padding: 12px 20px;
+  /* margin: 8px 0; */
+  /* box-sizing: border-box; */
+  margin-right: 50px;
+  border: none;
+  border-bottom: 2px solid #a9a5a5;
+}
+.text-area-container {
+  margin-top: 40px;
+}
+.form-input-text-areaa {
+  margin-top: 10px;
+  margin-right: 50px;
+  border: none;
+  border-bottom: 2px solid #a9a5a5;
+  width: 100%;
+  color: #363636;
+  font-family: public_sans, -apple-system, BlinkMacSystemFont, Trebuchet MS,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+}
+
+.checkbox-container {
+  margin-top: 10px;
+}
+.checkbox-container label b {
+  color: #007dc2;
+}
+
+.checkbox-container label b:hover {
+  background-color: rgba(225, 147, 10, 0.1);
+  transition: background-color 0.1s ease-in-out;
+  box-shadow: 0 2px 0 #e1930a;
+  text-decoration-skip-ink: auto;
+  color: #363636;
+}
+.form-inputt:focus {
+  outline: none;
+}
+.form-input-text-areaa:focus {
+  outline: none;
+}
+.checkbox-container button {
+  background-color: #f1f4e7;
+  box-shadow: 0 0 0 2px #50a16e;
+  color: #19440c;
+  font-weight: 700;
+  border-radius: 65px;
+  padding-bottom: 0.4em;
+  padding-top: 0.35em;
+  font-size: 16px;
+  height: 2.25em;
+  width: 90px;
+  margin-left: 58.5%;
+}

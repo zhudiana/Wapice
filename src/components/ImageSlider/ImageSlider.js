@@ -6,20 +6,21 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const ImageSlider = ({ slides }) => {
-  const [current, setCurrent] = useState(0);
-  const length = slides.length;
-  //   const [defaultImage, setDefaultImage] = useState({});
-  const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
-  };
+const ImageSlider = () => {
+  function SampleNextArrow(props) {
+    const { onClick } = props;
+    return (
+      <div onClick={onClick}>
+        <button className="next-button">
+          <FaArrowRight className="next-arrow" />
+        </button>
+      </div>
+    );
+  }
 
-  const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
-  };
-
-  if (!Array.isArray(slides) || slides.length <= 0) {
-    return null;
+  function SamplePrevArrow(props) {
+    const { onClick } = props;
+    return <div onClick={onClick} />;
   }
 
   const settings = {
@@ -28,6 +29,8 @@ const ImageSlider = ({ slides }) => {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 3,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     initialSlide: 0,
     responsive: [
       {
@@ -36,7 +39,7 @@ const ImageSlider = ({ slides }) => {
           slidesToShow: 2,
           slidesToScroll: 2,
           infinite: true,
-          dots: false,
+          dots: true,
         },
       },
       {
