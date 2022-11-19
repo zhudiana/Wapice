@@ -50,3 +50,31 @@
   box-shadow: 0 0 0 2px #e1930a;
   transition: all 0.1s ease;
 }
+
+@media only screen and (max-width: 767px) {
+  .join-team-article-container {
+    display: block;
+    height: 150vh;
+  }
+  .join-team-image-container {
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .join-team-article,
+  .join-article-p {
+    width: 300px;
+    margin-left: 25px;
+    margin-top: -20px;
+  }
+  .join-article-p {
+    margin-left: 5px;
+  }
+  .join-button {
+    width: 250px;
+    text-align: center;
+    background-color: #eeeaea;
+  }
+  .join-button:hover {
+    background-color: #ded8d8;
+  }
+}

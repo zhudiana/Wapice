@@ -113,7 +113,7 @@
   margin-top: -80px;
 }
 .choice-circle {
-  background-color: rgba(229, 225, 225, 0.726);
+  background-color: #fff;
   width: 20px;
   height: 20px;
   color: #fff;
@@ -292,4 +292,67 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .happening-main-container {
+    height: 480vh;
+  }
+  .happening-title {
+    margin-left: 30px;
+    width: 200px;
+  }
+  .grid-wrapper {
+    display: block;
+    width: 300px;
+    margin-left: 25px;
+    height: 800px;
+  }
+  .events-timeline h2 {
+    margin-bottom: 20px;
+  }
+  .timeline-container {
+    margin-top: 10px;
+    margin-bottom: 350px;
+  }
+
+  .timeline-item-content p {
+    width: 200px;
+  }
+  .event-container {
+    margin-top: 200px;
+  }
+  .choice-circle {
+    margin-top: 425px;
+  }
+  .choice-circle2 {
+    margin-top: 525px;
+  }
+  .under-button-container {
+    margin-top: -130px;
+  }
+  .latest-news-container {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    /* margin-bottom: 200px; */
+  }
+  .event2-container {
+    margin-left: -8px;
+    margin-top: 50px;
+  }
+
+  .event-container {
+    width: 100%;
+    margin-top: 30px;
+    height: 500px;
+  }
+  .event-footer {
+    margin-top: 10px;
+  }
+  .event-container p {
+    width: 290px;
+    margin-left: -10px;
+  }
+  .event-image {
+    width: 300px;
+    height: 200px;
+  }
 }

@@ -72,7 +72,7 @@ const Contact = () => {
               OUR PRIVACY POLICY <FiExternalLink />
             </b>
           </label>
-          <button>Send</button>
+          <button className="send-button">Send</button>
         </div>
       </form>
     </div>

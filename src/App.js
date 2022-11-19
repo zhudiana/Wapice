@@ -10,6 +10,18 @@ import JoinTeam from "./components/JoinTeam/JoinTeam";
 import Happening from "./components/Happening/Happening";
 import Partners from "./components/Partners/Partners";
 import Contact from "./components/Contact/Contact";
+import { useEffect, useState } from "react";
+
+function useWindowSize() {
+  const [size, setSize] = useState([window.innerHeight, window.innerWidth]);
+  useEffect(() => {
+    const handleResize = () => {
+      setSize([window.innerHeight, window.innerWidth]);
+    };
+    window.addEventListener("resize", handleResize);
+  }, []);
+  return size;
+}
 
 function App() {
   return (
@@ -23,7 +35,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <ImageSlider slides={SliderData} />
-      <Services />
+      <Services useWindowSize />
       <Summium />
       <JoinTeam />
       <Happening />

@@ -92,3 +92,34 @@ label {
   width: 90px;
   margin-left: 58.5%;
 }
+
+@media only screen and (max-width: 767px) {
+  .form-container {
+    margin-left: 10px;
+    width: 210px;
+    height: 700px;
+  }
+  .first-row-form-container {
+    display: block;
+  }
+  .form-inputt {
+    width: 180px;
+    margin-bottom: 50px;
+  }
+  .text-area-container {
+    margin-top: 10px;
+  }
+  .checkbox-container {
+    margin-top: 20px;
+    width: 250px;
+  }
+
+  .checkbox-container button {
+    /* width: 200px;
+    margin-left: -100px;
+    margin-top: 30px; */
+    width: 250px;
+    margin-left: -20px;
+    margin-top: 20px;
+  }
+}

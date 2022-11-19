@@ -4,7 +4,7 @@
   display: flex;
   margin-top: -80px;
   margin-left: -10px;
-  margin-right: -10px;
+  margin-right: -8px;
   background-image: radial-gradient(
       farthest-corner at center 0,
       rgba(255, 170, 23, 0.67),
@@ -91,4 +91,33 @@
 }
 .summium-button:hover {
   color: #000;
+}
+
+@media only screen and (max-width: 767px) {
+  .summium-container {
+    display: block;
+    height: 176vh;
+  }
+  .summium-container img {
+    margin-top: 550px;
+  }
+  .summium-image {
+    margin-top: 360px;
+    height: 300px;
+    margin-left: -150px;
+  }
+  .summium-description {
+    margin-top: -300px;
+    width: 300px;
+    margin-left: 20px;
+  }
+  .figure-container {
+    margin-top: 10px;
+
+    height: 200px;
+  }
+  .summium-button {
+    width: 250px;
+    text-align: center;
+  }
 }

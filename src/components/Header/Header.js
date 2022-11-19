@@ -11,11 +11,14 @@ const Header = () => {
           <span>
             IoT Insights newsletter: stay up to date with the latest news from
             the world of IoT
+            <Link to="/">
+              <p className="subscribe-button">
+                {" "}
+                <FiExternalLink className="header-icon" />
+                Subscribe now
+              </p>
+            </Link>
           </span>
-
-          <Link to="/" className="subscribe-button">
-            <FiExternalLink /> Subscribe now
-          </Link>
         </p>
       </div>
     </div>

@@ -50,7 +50,10 @@ const Body2 = () => {
               </ul>
               <ul className="under-logo">
                 <li>
-                  <img src="https://www.wapice.com/user/pages/images/customer_logos/schaeffler.svg?g-18ac159b" />
+                  <img
+                    className="under-image"
+                    src="https://www.wapice.com/user/pages/images/customer_logos/schaeffler.svg?g-18ac159b"
+                  />
                 </li>
               </ul>
             </article>

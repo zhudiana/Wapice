@@ -7,24 +7,8 @@ import logo from "../../images/logo.png";
 
 const Header2 = () => {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(true);
-
-  const showButton = () => {
-    if (window.innerWidth <= 1200) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener("resize", showButton);
 
   return (
     <>

@@ -24,7 +24,7 @@ const ImageSlider = () => {
   }
 
   const settings = {
-    dots: true,
+    // dots: true,
     infinite: false,
     speed: 500,
     slidesToShow: 4,

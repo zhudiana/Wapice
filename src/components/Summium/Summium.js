@@ -5,7 +5,7 @@ const Summium = () => {
   return (
     <div className="summium-container">
       <div>
-        <figure>
+        <figure className="figure-container">
           <img
             className="summium-image"
             src="https://www.wapice.com/user/pages/01.home/_summium-highlight/summium-rocket-white.svg?g-18ac159b"

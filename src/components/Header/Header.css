@@ -2,7 +2,7 @@
   background-color: #002235;
   margin: -16px -8px 0 -8px;
   z-index: 101;
-  min-height: 47.5px;
+  height: 50px;
 }
 .header-text {
   color: #fff;
@@ -16,11 +16,13 @@
     Helvetica, Arial, sans-serif;
   text-align: center;
   padding-top: 10px;
+  margin-left: -100px;
 }
 .subscribe-button {
   color: #fff;
   background-color: #094466;
-  margin-left: 15px;
+  left: 71%;
+  top: -40px;
   text-decoration: none;
   border-radius: 65px;
   font-size: 14px;
@@ -30,6 +32,8 @@
   padding: 0.5em 1.25em;
   font-weight: 700 !important;
   margin-left: 0.75rem !important;
+  width: 115px;
+  height: 20px;
 }
 .subscribe-button:hover {
   box-shadow: 0 0 0 2px #e1930a;
@@ -72,4 +76,44 @@
   line-height: 1.5;
   margin-top: 5px;
   margin-left: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  /* header 1 */
+  .header-container {
+    z-index: 101;
+    min-height: 120px;
+    padding-left: 100px;
+    width: 100%;
+    position: relative;
+  }
+  .header-text {
+    width: 100%;
+    text-align: initial;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  .subscribe-button {
+    top: -5px;
+    width: 90%;
+    left: -3%;
+    text-align: center;
+  }
+  .header-icon {
+    margin-right: 10px;
+  }
+  /* header2 */
+  .logo-container {
+    margin-left: 10px;
+  }
+  .menu-icon {
+    margin-left: 40px;
+  }
+  .navbar {
+    /* position: fixed; */
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    background-color: #fff;
+    /* top: -1px; */
+  }
 }
