@@ -1,7 +1,3 @@
-import React from "react";
-import { BiMenu } from "react-icons/bi";
-import { FiX } from "react-icons/fi";
-
 export const NavbarData = [
   {
     title: "Services",

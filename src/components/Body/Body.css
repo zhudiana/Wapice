@@ -31,15 +31,17 @@
 }
 .body1-container {
   background-image: url("https://www.wapice.com/images/9/9/3/2/1/9932141f1834f22792a12affc41b784ed6c7b216-iot-2-background-desktop.jpg?g-18ac159b");
-  position: absolute;
+  /* position: absolute; */
   /* height: 70vh; */
   width: 100%;
-  margin-left: -78px;
+  margin-left: -62px;
   background-size: cover;
   color: #fff;
   padding-left: 70px;
   padding-top: calc(3.25rem + 1vw);
   padding-bottom: calc(5.25rem + 2vw);
+  position: relative;
+  z-index: -1;
 }
 .body1-container::after {
   content: "";

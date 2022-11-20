@@ -51,12 +51,12 @@
   display: flex;
 }
 .logo-container {
-  margin-left: 40px;
+  margin-left: 100px;
 }
 .logo-img {
   height: 60px;
   padding-right: 0;
-  margin-left: -11px;
+  margin-left: 111px;
   margin-right: 1rem;
   transition: all 0.15s ease;
   cursor: pointer;
@@ -78,17 +78,101 @@
   margin-left: 5px;
 }
 
+/* Navbar CSS */
+.navbar {
+  background-color: #ffffff;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: -10%;
+}
+
+.menu-bars {
+  margin-left: 60%;
+  font-size: 2rem;
+  background: none;
+  color: #07599c;
+}
+.close-icon {
+  margin-left: 100px;
+  margin-top: -30px;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.nav-menu {
+  background-color: rgba(15, 25, 41, 0.952);
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  margin-top: -80px;
+  margin-left: 80%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  margin-left: 180%;
+  /* transition: 450ms; */
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+  /* background-color: red; */
+  margin-left: -40px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+
+  margin-left: -16px;
+}
+
+.nav-text a:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: rgba(15, 25, 41, 0.952);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menu-bars span {
+  margin-left: 16px;
+}
+
 @media only screen and (max-width: 767px) {
   /* header 1 */
   .header-container {
     z-index: 101;
     min-height: 120px;
     padding-left: 100px;
-    width: 100%;
+    /* width: 100%; */
     position: relative;
   }
   .header-text {
-    width: 100%;
+    /* width: 100%; */
     text-align: initial;
     font-size: 14px;
     padding-left: 10px;
@@ -96,24 +180,32 @@
   .subscribe-button {
     top: -5px;
     width: 90%;
-    left: -3%;
+    left: -6%;
     text-align: center;
+    text-decoration: none;
+  }
+  .menu-bars {
+    margin-left: 50px;
+  }
+  .nav-menu {
+    margin-left: 110px;
   }
   .header-icon {
     margin-right: 10px;
   }
   /* header2 */
   .logo-container {
-    margin-left: 10px;
+    margin-left: -90px;
   }
   .menu-icon {
     margin-left: 40px;
   }
   .navbar {
     /* position: fixed; */
-    z-index: 100;
+    z-index: 101;
     backdrop-filter: blur(10px);
     background-color: #fff;
     /* top: -1px; */
+    /* margin-top: 10px; */
   }
 }
