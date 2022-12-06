@@ -1,0 +1,11 @@
+.footer-container {
+  background: radial-gradient(
+    farthest-corner at center 0,
+    #094466 20%,
+    #002235 100%
+  );
+  position: absolute;
+  width: 100%;
+  margin-left: -8px;
+  display: flex;
+}

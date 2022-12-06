@@ -11,6 +11,7 @@ import Happening from "./components/Happening/Happening";
 import Partners from "./components/Partners/Partners";
 import Contact from "./components/Contact/Contact";
 import { useEffect, useState } from "react";
+import Footer from "./components/Footer/Footer";
 
 function useWindowSize() {
   const [size, setSize] = useState([window.innerHeight, window.innerWidth]);
@@ -41,6 +42,7 @@ function App() {
       <Happening />
       <Partners />
       <Contact />
+      <Footer />
     </div>
   );
 }
