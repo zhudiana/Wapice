@@ -17,35 +17,48 @@ const Footer = () => {
     <div className="footer-container">
       <div className="footer-list-container">
         <img src={logo} alt="logo" className="logo-img" />
-        <address>
-          <span>Wapice Ltd.</span>
-          <ul>
-            <li>Vaasa (HQ)</li>
-            <li>Vaasa (Runsor)</li>
-            <li>Vaasa (Energylab)</li>
-            <li>Helsinki ( Hyvinkää)</li>
-            <li> Jyväskylä</li>
-            <li>oulu</li>
-            <li> Seinäjoki</li>
-            <li> Tampere</li>
-            <li> Turku</li>
-          </ul>
+        <address className="places-container">
+          <span className="address-title">Wapice Ltd.</span>
+          <div>
+            <p>Vaasa (HQ),</p>
+            <p>Vaasa (Runsor),</p>
+            <p>Vaasa (Energylab),</p>
+            <p>Helsinki ( Hyvinkää),</p>
+            <p> Jyväskylä,</p>
+            <p>oulu,</p>
+            <p> Seinäjoki,</p>
+            <p> Tampere,</p>
+            <p> Turku</p>
+          </div>
         </address>
-        <address>
-          <FaFacebook />
-          <FaLinkedin />
-          <FaTwitter />
-          <FaYoutube />
-          <FaInstagram />
+        <address className="social-media-icons-container">
+          <a className="social-media-icon">
+            <FaFacebook className="each-icon" />
+          </a>
+          <a className="social-media-icon">
+            <FaLinkedin />
+          </a>
+          <a className="social-media-icon">
+            {" "}
+            <FaTwitter />
+          </a>
+          <a className="social-media-icon">
+            {" "}
+            <FaYoutube />
+          </a>
+          <a className="social-media-icon">
+            {" "}
+            <FaInstagram />
+          </a>
         </address>
         <div>
-          <p>
+          <p className="phone-number">
             <FaPhoneAlt /> +358 10 277 5000
           </p>
-          <p>
+          <p className="phone-number">
             <FaEnvelope /> info@wapice.com
           </p>
-          <p>
+          <p className="phone-number">
             <FiInfo /> Our pricy policy
           </p>
           <span>
@@ -154,13 +167,31 @@ const Footer = () => {
           <aside>
             <span class="menu-label">Navigation</span>
             <nav>
-              <a href="/services">Services</a>
-              <a href="/products">Products</a>
-              <a href="/careers">Careers</a>
-              <a href="/customers">Customers</a>
-              <a href="/news">News &amp; Events</a>
-              <a href="/insights">Insights</a>
-              <a href="/contact">Contact</a>
+              <p>
+                <a href="/services">Services</a>
+              </p>
+              <p>
+                <a href="/products">Products</a>
+              </p>
+              <p>
+                <a href="/careers">Careers</a>
+              </p>
+              <p>
+                {" "}
+                <a href="/customers">Customers</a>
+              </p>
+              <p>
+                {" "}
+                <a href="/news">News &amp; Events</a>
+              </p>
+              <p>
+                {" "}
+                <a href="/insights">Insights</a>
+              </p>
+              <p>
+                {" "}
+                <a href="/contact">Contact</a>
+              </p>
             </nav>
           </aside>
           <aside class="column menu">

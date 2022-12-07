@@ -4,8 +4,83 @@
     #094466 20%,
     #002235 100%
   );
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   margin-left: -8px;
   display: flex;
+  /* margin-top: 500px; */
+}
+.logo-img {
+  /* margin-top: 100px; */
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: 70px;
+}
+.address-title {
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: public_sans, Roboto, Droid Sans, Helvetica Neue, Helvetica,
+    Trebuchet MS, Arial;
+  font-weight: 700;
+  margin-left: 40px;
+}
+.places-container div {
+  display: flex;
+  width: 100px;
+}
+.places-container ul {
+  width: 365px;
+  background-color: red;
+}
+.footer-container ul li {
+  display: flex;
+  color: #b8c4db;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: public_sans, -apple-system, BlinkMacSystemFont, Trebuchet MS,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+}
+.social-media-icon {
+}
+.social-media-icon:hover {
+  background-color: #e1930a;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+}
+.each-icon {
+  /* background-color: red; */
+}
+.social-media-icons-container {
+  width: 365px;
+  height: 48px;
+  /* background-color: red; */
+  margin-left: 50px;
+}
+.social-media-icons-container a {
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  height: 480px;
+  width: 48px;
+  color: #fff;
+  background-color: #00507c;
+  cursor: pointer;
+  line-height: 1.5;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.phone-number {
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: public_sans, -apple-system, BlinkMacSystemFont, Trebuchet MS,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
 }
