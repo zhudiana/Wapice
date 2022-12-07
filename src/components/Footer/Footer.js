@@ -166,7 +166,7 @@ const Footer = () => {
       <div>
         <div class="columns">
           <aside>
-            <span class="menu-label">Navigation</span>
+            <span class="menu-label-remove">Navigation</span>
             <nav className="navigation-list">
               <p>
                 <a href="/services">Services</a>
