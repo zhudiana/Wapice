@@ -16,9 +16,9 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-list-container">
-        <img src={logo} alt="logo" className="logo-img" />
+        <img src={logo} alt="logo" className="logo2-img" />
         <address className="places-container">
-          <span className="address-title">Wapice Ltd.</span>
+          {/* <span className="address-title">Wapice Ltd.</span>
           <div>
             <p>Vaasa (HQ),</p>
             <p>Vaasa (Runsor),</p>
@@ -29,7 +29,7 @@ const Footer = () => {
             <p> Seinäjoki,</p>
             <p> Tampere,</p>
             <p> Turku</p>
-          </div>
+          </div> */}
         </address>
         <address className="social-media-icons-container">
           <a className="social-media-icon">
@@ -61,27 +61,28 @@ const Footer = () => {
           <p className="phone-number">
             <FiInfo /> Our pricy policy
           </p>
-          <span>
-            We use cookies to ensure you get the best experience on our website.
-          </span>
-          <span>Copyright © 2022 Wapice Ltd.</span>
+          <p className="white-text1">
+            We use cookies to ensure you get the best <br /> experience on our
+            website.
+          </p>
+          <p className="white-text2">Copyright © 2022 Wapice Ltd.</p>
         </div>
       </div>
 
-      <div>
+      <div className="second-column-container">
         <span>Latest news</span>
-        <table>
+        <table className="table-content">
           <tbody>
             <tr>
-              <td>
+              <td className="time-container">
                 <time
-                  class="menu-label is-block yellow-lightest is-bold mb-xs"
+                  class="menu-label yellow-lightest"
                   datetime="2022-11-09T09:00:00+02:00"
                 >
                   9th Nov
                 </time>
               </td>
-              <td>Smart City Expo World Congress</td>
+              <td className="p-xs">Smart City Expo World Congress</td>
             </tr>
             <tr>
               <td class="py-xs pr-xs has-text-right">
@@ -92,7 +93,7 @@ const Footer = () => {
                   2nd Nov
                 </time>
               </td>
-              <td class="p-xs">
+              <td className="p-xs">
                 Wapice joins the key partners of Olympic medalist Joni Mäki
               </td>
             </tr>
@@ -105,7 +106,7 @@ const Footer = () => {
                   25th Oct
                 </time>
               </td>
-              <td class="p-xs">
+              <td className="p-xs">
                 Meet Wapice at the SPS22 trade fair in Germany 8.-10.11.2022
               </td>
             </tr>
@@ -118,7 +119,7 @@ const Footer = () => {
                   18th Oct
                 </time>
               </td>
-              <td class="p-xs">
+              <td className="p-xs">
                 Bauma 22 - Are you near Munich on October 24-30?
               </td>
             </tr>
@@ -131,7 +132,7 @@ const Footer = () => {
                   17th Oct
                 </time>
               </td>
-              <td class="p-xs">Welcome to the Energia 2022 Event</td>
+              <td className="p-xs">Welcome to the Energia 2022 Event</td>
             </tr>
             <tr>
               <td class="py-xs pr-xs has-text-right">
@@ -142,7 +143,7 @@ const Footer = () => {
                   14th Oct
                 </time>
               </td>
-              <td class="p-xs">.NET Conf 2022 watch party</td>
+              <td className="p-xs">.NET Conf 2022 watch party</td>
             </tr>
             <tr>
               <td class="py-xs pr-xs has-text-right">
@@ -153,7 +154,7 @@ const Footer = () => {
                   14th Oct
                 </time>
               </td>
-              <td class="p-xs">
+              <td className="p-xs">
                 IoT-TICKET® Partner: Nobody cares about your old building
                 automation
               </td>
@@ -166,7 +167,7 @@ const Footer = () => {
         <div class="columns">
           <aside>
             <span class="menu-label">Navigation</span>
-            <nav>
+            <nav className="navigation-list">
               <p>
                 <a href="/services">Services</a>
               </p>

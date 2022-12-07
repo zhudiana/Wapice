@@ -6,12 +6,13 @@
   );
   /* position: absolute; */
   width: 100%;
+  height: 100vh;
   margin-left: -8px;
   display: flex;
   /* margin-top: 500px; */
 }
-.logo-img {
-  /* margin-top: 100px; */
+.logo2-img {
+  margin-top: 100px;
   margin-left: 20px;
   margin-bottom: 20px;
   width: 250px;
@@ -28,12 +29,7 @@
 .places-container div {
   display: flex;
   width: 100px;
-}
-.places-container ul {
-  width: 365px;
   background-color: red;
-}
-.footer-container ul li {
   display: flex;
   color: #b8c4db;
   font-size: 1rem;
@@ -43,16 +39,17 @@
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     Helvetica, Arial, sans-serif;
 }
-.social-media-icon {
+.places-container div p {
+  margin-right: 50px;
+  width: 50px;
 }
+
 .social-media-icon:hover {
   background-color: #e1930a;
   transition: all 0.2s ease-in-out;
   color: #fff;
 }
-.each-icon {
-  /* background-color: red; */
-}
+
 .social-media-icons-container {
   width: 365px;
   height: 48px;
@@ -76,11 +73,87 @@
 .phone-number {
   color: #fff;
   font-weight: 700;
-  font-size: 0.8em;
+  font-size: 0.9em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   cursor: pointer;
   font-family: public_sans, -apple-system, BlinkMacSystemFont, Trebuchet MS,
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     Helvetica, Arial, sans-serif;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.white-text1 {
+  color: #fff;
+  margin-left: 50px;
+  font-size: 18px;
+  font-family: public_sans, -apple-system, BlinkMacSystemFont, Trebuchet MS,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+}
+.white-text2 {
+  color: #fff;
+  font-size: 16px;
+  margin-left: 50px;
+  font-family: public_sans, -apple-system, BlinkMacSystemFont, Trebuchet MS,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+}
+
+.second-column-container {
+  margin-top: 120px;
+}
+.second-column-container span {
+  color: #aecedf;
+  font-weight: 700;
+  font-family: public_sans, -apple-system, BlinkMacSystemFont, Trebuchet MS,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+}
+.p-xs {
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: public_sans, -apple-system, BlinkMacSystemFont, Trebuchet MS,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+  padding-top: 10px;
+  width: 300px;
+  line-height: 1.5;
+}
+.p-xs:hover {
+  background-color: rgba(225, 147, 10, 0.1);
+  box-shadow: 0 2px 0 #e1930a;
+  text-decoration-skip-ink: auto;
+  transition: background-color 0.1s ease-in-out;
+}
+.table-content {
+  margin-left: -30px;
+}
+.time-container {
+  width: 130px;
+}
+.columns {
+  margin-top: 120px;
+}
+.menu-label {
+  color: #aecedf;
+}
+.navigation-list p a,
+.menu-list {
+  margin-left: 40px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 65px;
+  padding: 0.5em 1.25em;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: public_sans, Roboto, Droid Sans, Helvetica Neue, Helvetica,
+    Trebuchet MS, Arial;
+  list-style: none;
+}
+.navigation-list p a:hover,
+.menu-list:hover {
+  background-color: hsla(0, 0%, 100%, 0.05);
+  transition: all 50ms ease;
 }
